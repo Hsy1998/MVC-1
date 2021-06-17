@@ -1,0 +1,35 @@
+#app3 {
+  display: flex;
+  align-items: center;
+}
+
+#app3 #square {
+  background: #008c8c;
+  height: 150px;
+  width: 150px;
+}
+
+#app3 .move {
+  animation: round 3s forwards linear;
+}
+
+@keyframes round {
+  0% {
+    transform: translateX(0);
+  }
+
+  33% {
+    transform: translateX(10vw);
+    border-radius: 15%;
+  }
+
+  66% {
+    transform: translateX(15vw);
+    border-radius: 30%;
+  }
+
+  100% {
+    transform: translateX(20vw);
+    border-radius: 50%;
+  }
+}

@@ -1,0 +1,30 @@
+#app2 #tab-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+#app2 #tab-bar li {
+  border: 1px solid rgb(139, 139, 139);
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding: 0.5em 2em;
+}
+
+#app2 #tab-bar>.active {
+  background: #008c8c;
+  color: white;
+}
+
+#app2 #content>li {
+  display: none;
+}
+
+#app2 #content>.block {
+  display: block;
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
