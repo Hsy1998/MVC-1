@@ -2,6 +2,8 @@
   "name": "MVC",
   "version": "1.0.0",
   "main": "index.js",
+  "repository": "https://github.com/Hsy1998/MVC-1.git",
+  "author": "Hsy <a553331998@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "jquery": "^3.6.0"
